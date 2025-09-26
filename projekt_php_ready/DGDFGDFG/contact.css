@@ -1,0 +1,242 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+/* Container */
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    background-color: #111;
+    color: white;
+    padding: 15px 0; /* Adjusted padding */
+}
+
+header .logo h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+nav ul li {
+    margin-left: 25px; /* Adjusted margin */
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+}
+nav ul li a:hover {
+    color: #ff9000;
+}
+  .contact-us {
+    width: 60%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .contact-us h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .contact-us p {
+    font-size: 1rem;
+    margin-bottom: 30px;
+    color: #666;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: left;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  input, textarea {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  textarea {
+    resize: vertical;  /* Allows vertical resizing of the textarea */
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .contact-us {
+      width: 80%;  /* Make the form take up more space on smaller screens */
+    }
+  }
+  footer {
+    background-color: #111;
+    color: #fff;
+    padding: 40px 0;
+    font-family: Arial, sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.footer-column {
+    width: 22%;
+    padding: 20px;
+}
+.footer-column h3 {
+    font-size: 1.6em;
+    margin-bottom: 20px;
+    color: #ff9000;
+}
+.footer-column ul {
+    list-style: none;
+}
+.footer-column ul li {
+    margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+    transition: color 0.3s ease;
+}
+.footer-column ul li a:hover {
+    color: #ff9000;
+}
+.footer-column form {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-column input[type="email"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.footer-column button {
+    padding: 10px;
+    background-color: #ff9000;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.footer-column button:hover {
+    background-color: #ff6600;
+}
+
+/* Social Media Icons */
+.social-icons {
+    display: flex;
+    gap: 20px;
+}
+
+.social-icon img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease;
+}
+
+.social-icon img:hover {
+    transform: scale(1.2);
+}
+.footer-bottom {
+    text-align: center;
+    padding: 20px;
+    background-color: #222;
+    font-size: 1em;
+}
+.footer-bottom p {
+    color: #bbb;
+}
+.footer-bottom a {
+    color: #ff9000;
+    text-decoration: none;
+}
+.footer-bottom a:hover {
+    color: #fff;
+}
+@media (max-width: 768px) {
+    .footer-column {
+        width: 48%;
+        margin-bottom: 20px;
+    }
+    .footer-column h3 {
+        font-size: 1.4em;
+    }
+    .social-icons {
+        justify-content: center;
+        gap: 15px;
+    }
+}
+@media (max-width: 480px) {
+    .footer-column {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .footer-bottom {
+      
+        padding: 10px;
+    }
+}

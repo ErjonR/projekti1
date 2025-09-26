@@ -1,0 +1,168 @@
+<?php include 'header.php'; ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nike</title>
+    <link rel="stylesheet" href="duksa.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Nike</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="home.php">Home</a></li>
+                    <li><a href="shop.php">Products</a></li>
+                    <li><a href="about.php">About</a></li>
+                    <li><a href="contact.php">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+  <main>
+    <section class="product-list">
+      <div class="product">
+        <img src="https://images.stockx.com/images/Nike-Womens-Tech-Fleece-Hoodie-Dark-Grey-Heather-Black.jpg?fit=fill&bg=FFFFFF&w=1200&h=857&q=60&dpr=1&trim=color&updated_at=1658773622" alt="Product 1" width="100px" height="100px">
+        <h2>Produkti 1</h2>
+        <p>$29.99</p>
+        <button>Add to Cart</button>
+      </div>
+
+      <div class="product">
+        <img src="https://images.stockx.com/images/Nike-Womens-Club-Fleece-Hoodie-Dark-Grey-Heather.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&q=90&dpr=2&trim=color&updated_at=1735336411" alt="Product 2" width="100px" height="100px">
+        <h2>Produkti 2</h2>
+        <p>$49.99</p>
+        <button>Add to Cart</button>
+      </div>
+<br><br>
+      <div class="product">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUAufx1jlR267HBqAEX719XOGD2pKpuYIG8g&s" alt="Product 3" width="100px" height="100px">
+        <h2>Produkti 3</h2>
+        <p>$19.99</p>
+        <button>Add to Cart</button>
+      </div>
+      <br><br>
+      <div class="product">
+        <img src="https://images.stockx.com/images/Nike-Sportswear-Club-Fleece-Full-Zip-Hoodie-University-Red-University-Red-White.jpg?fit=fill&bg=FFFFFF&w=1200&h=857&q=60&dpr=1&trim=color&updated_at=1664924714" alt="Product 1" width="100px" height="100px">
+        <h2>Produkti 4</h2>
+        <p>$29.99</p>
+        <button>Add to Cart</button>
+      </div>
+<br><br>
+      <div class="product">
+        <img src="https://images.stockx.com/images/Nike-Sportswear-Womens-Tech-Fleece-Full-Zip-Hoodie-Alligator-Black-v2.jpg?fit=fill&bg=FFFFFF&w=1200&h=857&q=60&dpr=1&trim=color&updated_at=1727893268" alt="Product 2" width="100px" height="100px">
+        <h2>Produkti 5</h2>
+        <p>$49.99</p>
+        <button>Add to Cart</button>
+      </div>
+<br><br>
+      <div class="product">
+        <img src="https://image.goxip.com/bel6JvEFisNr3y3XHWsM1SGJ5oU=/fit-in/500x500/filters:format(jpg):quality(80):fill(white)/https:%2F%2Fimages.stockx.com%2Fimages%2FNike-Sportswear-Tech-Fleece-Full-Zip-Hoodie-Black-Gold.jpg" alt="Product 3" width="100px" height="100px">
+        <h2>Produkti 6</h2>
+        <p>$19.99</p>
+        <button>Add to Cart</button>
+      </div>
+      <br><br>
+      <div class="product">
+        <img src="https://images.stockx.com/images/Nike-Vapor-Edge-Pro-360-Neon.jpg" alt="Product 1" width="100px" height="100px">
+        <h2>Produkti 7</h2>
+        <p>$29.99</p>
+        <button>Add to Cart</button>
+      </div>
+<br><br>
+      <div class="product">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQt66PVo33_aZuj2MNT_JkRDitQi2ysU-4Juw&s" alt="Product 2" width="100px" height="100px">
+        <h2>Produkti 8</h2>
+        <p>$49.99</p>
+        <button>Add to Cart</button>
+      </div>
+<br><br>
+      <div class="product">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPiXdmEUgCKJtTqAGRuXAovPY45VgWH-WfeQ&s" alt="Product 3" width="100px" height="100px">
+        <h2>Produkti 9</h2>
+        <p>$19.99</p>
+        <button>Add to Cart</button>
+      </div>
+      <br><br>
+      <div class="product">
+        <img src="https://images.stockx.com/images/Nike-Sportswear-Tech-Fleece-Full-Zip-Hoodie-Violet-Shock-Black-v2.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&q=90&dpr=2&trim=color&updated_at=1694234432" alt="Product 1" width="100px" height="100px">
+        <h2>Produkti 10</h2>
+        <p>$29.99</p>
+        <button>Add to Cart</button>
+      </div>
+<br><br>
+      <div class="product">
+        <img src="https://i.pinimg.com/736x/65/3b/ba/653bbaeb4379bc2e162dc852a451ead6.jpg" alt="Product 2" width="100px" height="100px">
+        <h2>Produkti 11</h2>
+        <p>$49.99</p>
+        <button>Add to Cart</button>
+      </div>
+<br><br>
+      <div class="product">
+        <img src="https://image.goxip.com/CM3VwcLHM32oPUh-vH35dNDvZjc=/fit-in/500x500/filters:format(jpg):quality(80):fill(white)/https:%2F%2Fimages.stockx.com%2Fimages%2FNike-Youth-Tech-Fleece-Hoodie-Dark-Marina-Blue-Light-Bone.jpg" alt="Product 3">
+        <h2>Produkti 12</h2>
+        <p>$19.99</p>
+        <button>Add to Cart</button>
+      </div>
+     <br><br>
+    </section>
+  </main>
+  <footer>
+    <div class="footer-container">
+        <!-- Footer Column 1: Company Info -->
+        <div class="footer-column">
+            <h3>Company</h3>
+            <ul>
+                <li><a href="about.php">About Us</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Press</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+
+        <!-- Footer Column 2: Quick Links -->
+        <div class="footer-column">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="shop.php">Shop</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+                <li><a href="#">Refund Policy</a></li>
+            </ul>
+        </div>
+
+        <!-- Footer Column 3: Newsletter Subscription -->
+        <div class="footer-column">
+            <h3>Newsletter</h3>
+            <p>Subscribe to our newsletter for the latest updates and offers.</p>
+            <form action="contact.html">
+                <input type="email" placeholder="Enter your email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+
+        <!-- Footer Column 4: Social Media Links -->
+        <div class="footer-column">
+            <h3>Follow Us</h3>
+            <div class="social-icons">
+                <a href="#" class="social-icon"><img src="https://i.pinimg.com/736x/84/68/5b/84685ba9637a951591040426a46da70f.jpg" alt="Facebook"></a>
+                <a href="#" class="social-icon"><img src="twitter-icon.png" alt="Twitter"></a>
+                <a href="https://www.instagram.com/end.mehmeti/?next=%2F" class="social-icon"><img src="https://i.pinimg.com/originals/e5/d3/76/e5d376b99ef839fe38135eb1ffc68189.jpg" alt="Instagram"></a>
+                <a href="#" class="social-icon"><img src="linkedin-icon.png" alt="LinkedIn"></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p>&copy; Endrit Mehmeti,Nuart Ramadani,Amir Kuleta,Erjon Jashari. All Rights Reserved.</p>
+    </div>
+</footer>
+</body>
+</html>
+<?php include 'footer.php'; ?>
